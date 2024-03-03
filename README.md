@@ -14,15 +14,15 @@ A repository to keep track of problem solving practice, containing solutions fro
 95 | 1938 | [H - Pho Restaurant](https://codeforces.com/contest/1938/problem/H) | [GNU C++20 (64)](./codeforces/1938/H.cpp) |  |  | 
 94 | 1937 | [B - Binary Path](https://codeforces.com/contest/1937/problem/B) | [GNU C++20 (64)](./codeforces/1937/B.cpp) |  | `dp` `greedy` `implementation` | 
 93 | 1933 | [A - Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | [GNU C++20 (64)](./codeforces/1933/A.cpp) |  | `greedy` `math` `sortings` | 
-92 | ╚ | [B - Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | [GNU C++20 (64)](./codeforces/1933/B.cpp) |  | `implementation` `math` `number theory` | 
-91 | ╚ | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [GNU C++20 (64)](./codeforces/1933/C.cpp) |  | `brute force` `implementation` `math` `number theory` | 
-90 | ╚ | [D - Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | [GNU C++20 (64)](./codeforces/1933/D.cpp) |  | `constructive algorithms` `greedy` `math` `number theory` `sortings` | 
-89 | ╚ | [E - Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | [GNU C++20 (64)](./codeforces/1933/E.cpp) |  | `binary search` `implementation` `math` `ternary search` | 
+92 | ╚═ | [B - Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | [GNU C++20 (64)](./codeforces/1933/B.cpp) |  | `implementation` `math` `number theory` | 
+91 | ╚═ | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [GNU C++20 (64)](./codeforces/1933/C.cpp) |  | `brute force` `implementation` `math` `number theory` | 
+90 | ╚═ | [D - Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | [GNU C++20 (64)](./codeforces/1933/D.cpp) |  | `constructive algorithms` `greedy` `math` `number theory` `sortings` | 
+89 | ╚═ | [E - Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | [GNU C++20 (64)](./codeforces/1933/E.cpp) |  | `binary search` `implementation` `math` `ternary search` | 
 88 | 1932 | [A - Thorns and Coins](https://codeforces.com/contest/1932/problem/A) | [GNU C++20 (64)](./codeforces/1932/A.cpp) |  | `dp` `greedy` `implementation` | 
-87 | ╚ | [B - Chaya Calendar](https://codeforces.com/contest/1932/problem/B) | [GNU C++20 (64)](./codeforces/1932/B.cpp) |  | `number theory` | 
-86 | ╚ | [C - LR-remainders](https://codeforces.com/contest/1932/problem/C) | [GNU C++20 (64)](./codeforces/1932/C.cpp) |  | `brute force` `data structures` `implementation` `math` `two pointers` | 
-85 | ╚ | [D - Card Game](https://codeforces.com/contest/1932/problem/D) | [GNU C++20 (64)](./codeforces/1932/D.cpp) |  | `greedy` `implementation` | 
-84 | ╚ | [E - Final Countdown](https://codeforces.com/contest/1932/problem/E) | [GNU C++20 (64)](./codeforces/1932/E.cpp) |  | `implementation` `math` `number theory` | 
+87 | ╚═ | [B - Chaya Calendar](https://codeforces.com/contest/1932/problem/B) | [GNU C++20 (64)](./codeforces/1932/B.cpp) |  | `number theory` | 
+86 | ╚═ | [C - LR-remainders](https://codeforces.com/contest/1932/problem/C) | [GNU C++20 (64)](./codeforces/1932/C.cpp) |  | `brute force` `data structures` `implementation` `math` `two pointers` | 
+85 | ╚═ | [D - Card Game](https://codeforces.com/contest/1932/problem/D) | [GNU C++20 (64)](./codeforces/1932/D.cpp) |  | `greedy` `implementation` | 
+84 | ╚═ | [E - Final Countdown](https://codeforces.com/contest/1932/problem/E) | [GNU C++20 (64)](./codeforces/1932/E.cpp) |  | `implementation` `math` `number theory` | 
 83 | 1931 | [A - Recovering a Small String](https://codeforces.com/contest/1931/problem/A) | [GNU C++20 (64)](./codeforces/1931/A.cpp) | 800 | `brute force` `strings` | 
 82 | ╚ | [B - Make Equal](https://codeforces.com/contest/1931/problem/B) | [GNU C++20 (64)](./codeforces/1931/B.cpp) | 800 | `greedy` | 
 81 | ╚ | [C - Make Equal Again](https://codeforces.com/contest/1931/problem/C) | [GNU C++20 (64)](./codeforces/1931/C.cpp) | 1000 | `brute force` `greedy` `math` | 

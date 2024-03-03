@@ -58,7 +58,7 @@ class Submissions:
       problems.add(submission['problem_url'])
       row = str(index) + " | "
       if submission['contest_id'] == curr:
-        row += '╚'
+        row += '╚═'
       else:
         row += str(submission['contest_id'])
         curr = submission['contest_id']
