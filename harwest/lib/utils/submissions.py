@@ -52,30 +52,46 @@ class Submissions:
     problems = set()
     rows = []
     curr = -1
-    for submission in submissions:
+    for idx, submission in enumerate(submissions):
       if submission['problem_url'] in problems:
         continue
       problems.add(submission['problem_url'])
-      row = str(index) + " | "
-      if submission['contest_id'] == curr:
-        row += '╚═'
-      else:
-        row += str(submission['contest_id'])
+      row = "        <tr>\n"
+      row += "          <td align='center'>{index}</td>\n".format(index=index)
+      rep = 1
+      aux = idx
+      while aux < len(submissions) and submissions[aux]['contest_id'] == curr:
+        aux += 1
+        rep += 1
+      
+      if curr != submission['contest_id']:
+        row += "            <td rowspan={rep} align='center'>{contest_id}</td>\n".format(
+          rep=rep,
+          contest_id=submission['contest_id']
+        )
         curr = submission['contest_id']
-      row += " | "
-      row += '[{problem_index} - {problem_name}]({problem_url}) | '.format(
+
+      row += "          <td align='left'><a href='{problem_url}'>{problem_index} - {problem_name}</a></td>\n".format(
         problem_index=submission['problem_index'],
         problem_name=submission['problem_name'],
         problem_url=submission['problem_url']
       )
-      row += '[{lang}](./{path}) | '.format(
+      row += "          <td align='center'><a href='./{path}'>{lang}</a></td>\n".format(
         lang=submission['language'],
         path=submission['path'].replace('\\', '/')
       )
-      row += submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else ''
-      row += " | "
-      row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
-      row += " | "
+      row += "          <td align='center'>{rating}</td>\n".format(
+        rating=submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else ''
+      )
+      # row += "          <td align='center'>{tags}</td>\n".format(
+      #   tags=' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')]))
+      row += "          <td align='center'>{tags}</td>\n".format(
+        tags=' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
+      )
+      # row += " | "
+      # row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
+      # row += " | "
+      row += "        </tr>"
       rows.append(row)
       index -= 1
 
