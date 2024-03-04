@@ -58,18 +58,17 @@ class Submissions:
       problems.add(submission['problem_url'])
       row = "        <tr>\n"
       row += "          <td align='center'>{index}</td>\n".format(index=index)
-      rep = 1
-      aux = idx
-      while aux < len(submissions) and submissions[aux]['contest_id'] == curr:
-        aux += 1
-        rep += 1
-      
-      if curr != submission['contest_id']:
-        row += "            <td rowspan={rep} align='center'>{contest_id}</td>\n".format(
-          rep=rep,
+      if submission['contest_id'] != curr: 
+        aux = idx
+        curr = submission['contest_id']
+        letters = set()
+        while aux < len(submissions) and submissions[aux]['contest_id'] == curr:
+          letters.add(submissions[aux]['problem_index'])
+          aux += 1
+        row += "          <td rowspan={rep} align='center'>{contest_id}</td>\n".format(
+          rep=len(letters),
           contest_id=submission['contest_id']
         )
-        curr = submission['contest_id']
 
       row += "          <td align='left'><a href='{problem_url}'>{problem_index} - {problem_name}</a></td>\n".format(
         problem_index=submission['problem_index'],
@@ -83,14 +82,9 @@ class Submissions:
       row += "          <td align='center'>{rating}</td>\n".format(
         rating=submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else ''
       )
-      # row += "          <td align='center'>{tags}</td>\n".format(
-      #   tags=' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')]))
       row += "          <td align='center'>{tags}</td>\n".format(
         tags=' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
       )
-      # row += " | "
-      # row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
-      # row += " | "
       row += "        </tr>"
       rows.append(row)
       index -= 1
