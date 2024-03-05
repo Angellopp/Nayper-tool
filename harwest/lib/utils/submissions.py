@@ -56,8 +56,13 @@ class Submissions:
       if submission['problem_url'] in problems:
         continue
       problems.add(submission['problem_url'])
-      row = "        <tr>\n"
-      row += "          <td align='center'>{index}</td>\n".format(index=index)
+      row = "        <tr class='light'>\n" if idx % 2 == 0 else "        <tr class='dark'>\n"
+      row += "          <td " 
+      if idx == 0:
+        row += "class='tole' "
+      if index == 1:
+        row += "class='bole' "
+      row += "align='center'>{index}</td>\n".format(index=index)
       if submission['contest_id'] != curr: 
         aux = idx
         curr = submission['contest_id']
@@ -65,25 +70,27 @@ class Submissions:
         while aux < len(submissions) and submissions[aux]['contest_id'] == curr:
           letters.add(submissions[aux]['problem_index'])
           aux += 1
-        row += "          <td rowspan={rep} align='center'>{contest_id}</td>\n".format(
+        row += "          <td rowspan='{rep}' align='center'>{contest_id}</td>\n".format(
           rep=len(letters),
           contest_id=submission['contest_id']
         )
 
-      row += "          <td align='left'><a href='{problem_url}'>{problem_index} - {problem_name}</a></td>\n".format(
+      row += "          <td class='name' align='left'><a href='{problem_url}'>{problem_index} - {problem_name}</a></td>\n".format(
         problem_index=submission['problem_index'],
         problem_name=submission['problem_name'],
         problem_url=submission['problem_url']
       )
-      row += "          <td align='center'><a href='./{path}'>{lang}</a></td>\n".format(
-        lang=submission['language'],
-        path=submission['path'].replace('\\', '/')
+      row += "          <td align='center'><a class='solution' href='./{path}'>{rating}</a></td>\n".format(
+        path=submission['path'].replace('\\', '/'),
+        rating=submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else '?'
       )
-      row += "          <td align='center'>{rating}</td>\n".format(
-        rating=submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else ''
-      )
-      row += "          <td align='center'>{tags}</td>\n".format(
-        tags=' '.join(['`{tag}`'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
+      row += "          <td "
+      if idx == 0:
+        row += "class='tori' "
+      if index == 1:
+        row += "class='bori' "
+      row += "align='center'><div style='display: flex; justify-content: center;'>{tags}</div></td>\n".format(
+        tags=' '.join(['<code>{tag}</code>'.format(tag=x) for x in submission['tags'] if not x.startswith('*')])
       )
       row += "        </tr>"
       rows.append(row)

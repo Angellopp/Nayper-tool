@@ -8,14 +8,13 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 ## Contents
 
-<table>
+<table class='problems'>
     <thead>
         <tr>
             <th>#</th>
             <th>Contest</th>
             <th>Title</th>
             <th>Solution</th>
-            <th>Rating</th>
             <th>Tags</th>
         </tr>
     </thead>
