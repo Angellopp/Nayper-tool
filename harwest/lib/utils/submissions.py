@@ -113,6 +113,7 @@ class Submissions:
     template_readme = open(str(config.RESOURCES_DIR.joinpath("readme.template")), 'r',
                     encoding="utf-8").read()
     readme_data = template_readme.format(
+      height_placeholder=40+57 * len(rows),
       profile_placeholder=self.__generate_profile()
     )
     with open(self.readme_path, 'w', encoding="utf-8") as fp:
