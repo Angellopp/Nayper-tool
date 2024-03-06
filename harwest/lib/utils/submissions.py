@@ -113,6 +113,7 @@ class Submissions:
     template_readme = open(str(config.RESOURCES_DIR.joinpath("readme.template")), 'r',
                     encoding="utf-8").read()
     readme_data = template_readme.format(
+      table_url_placeholder=config.get_remote_url().replace('https://github.com/', 'https://raw.githubusercontent.com/') + "/master/table.svg",
       height_placeholder=40+57 * len(rows),
       profile_placeholder=self.__generate_profile()
     )
