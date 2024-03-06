@@ -8,17 +8,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 ## Contents
 
-<table class='problems'>
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Contest</th>
-            <th>Title</th>
-            <th>Solution</th>
-            <th>Tags</th>
-        </tr>
-    </thead>
-    <tbody>
-{submission_placeholder}
-    </tbody>
-</table>
+<div align="center" style="width: 100%;">
+	<br>
+        <a href='https://raw.githubusercontent.com/Angellopp/PC2/8718ef9fe3eae2afa1116068600a152ab299b549/table.svg'>
+            <img src="table.svg" style="width: 100%; height=4828;" alt="Click to see the source">
+        </a>
+	<br>
+</div>

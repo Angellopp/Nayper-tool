@@ -1,0 +1,25 @@
+<svg fill="none" viewBox="0 0 1000 {height_placeholder}" width="1000" height="{height_placeholder}" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                {style_placeholder}
+			</style>
+            <div class="container">
+                <table class="problems">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Contest</th>
+                            <th>Title</th>
+                            <th>Rating</th>
+                            <th>Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {submission_placeholder}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </foreignObject>
+</svg>

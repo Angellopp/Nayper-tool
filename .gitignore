@@ -6,6 +6,7 @@
 !harwest
 !harwest/**
 !README.md
+!table.svg
 !requirements.txt
 !setup.py
 !MANIFEST.in

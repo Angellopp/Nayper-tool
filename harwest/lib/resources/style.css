@@ -1,0 +1,51 @@
+.container{
+    background-color: #e1e1e1;
+}
+.problems {
+    font-family: verdana, arial, sans-serif;
+}
+.solution {
+      color: #0a0; 
+      font-weight: bold;
+}
+.problems .dark {
+    background-color: #f8f8f8;
+    height: 55px;
+}
+.problems .light {
+    background-color: #ffffff;
+    height: 55px;
+}
+.problems .name {
+  white-space: nowrap;
+}
+td, th {
+    padding: 0.4em;
+}
+code {
+    color: #0000cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-weight: bold;
+    margin: 2px;
+    padding: 2px 3px 2px 3px;
+    background-color: #f0f0f0;
+    border: 1px solid #b9b9b9;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.bole {
+    border-bottom-left-radius: 6px;
+}
+.bori {
+    border-bottom-right-radius: 6px;
+}
+.tole {
+    border-top-left-radius: 6px;
+}
+.tori {
+    border-top-right-radius: 6px;
+}

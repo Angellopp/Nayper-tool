@@ -7,6 +7,7 @@ from harwest.lib.utils import config
 class Submissions:
   def __init__(self, submissions_directory, user_data):
     self.user_data = user_data
+    self.table_svg_path = os.path.join(submissions_directory, "table.svg")
     self.readme_path = os.path.join(submissions_directory, "README.md")
     self.submission_json_path = \
       os.path.join(submissions_directory, "submissions.json")
@@ -49,6 +50,7 @@ class Submissions:
       key=lambda s: (-s['contest_id'], s['problem_index']),
     )
     index = len(set([x['problem_url'] for x in submissions]))
+    xedni = 0
     problems = set()
     rows = []
     curr = -1
@@ -56,7 +58,7 @@ class Submissions:
       if submission['problem_url'] in problems:
         continue
       problems.add(submission['problem_url'])
-      row = "        <tr class='light'>\n" if idx % 2 == 0 else "        <tr class='dark'>\n"
+      row = "        <tr class='light'>\n" if xedni % 2 == 0 else "        <tr class='dark'>\n"
       row += "          <td " 
       if idx == 0:
         row += "class='tole' "
@@ -80,8 +82,9 @@ class Submissions:
         problem_name=submission['problem_name'],
         problem_url=submission['problem_url']
       )
-      row += "          <td align='center'><a class='solution' href='./{path}'>{rating}</a></td>\n".format(
-        path=submission['path'].replace('\\', '/'),
+      row += "          <td align='center'><a class='solution' href='{path}'>{rating}</a></td>\n".format(
+        # path=submission['path'].replace('\\', '/'),
+        path=submission['submission_url'],
         rating=submission['tags'][-1].replace('*', '') if submission['tags'] and submission['tags'][-1].startswith('*') else '?'
       )
       row += "          <td "
@@ -95,11 +98,23 @@ class Submissions:
       row += "        </tr>"
       rows.append(row)
       index -= 1
+      xedni += 1
 
-    template = open(str(config.RESOURCES_DIR.joinpath("readme.template")), 'r',
+    template_table = open(str(config.RESOURCES_DIR.joinpath("table.template")), 'r',
                     encoding="utf-8").read()
-    readme_data = template.format(
-      profile_placeholder=self.__generate_profile(),
+    style = open(str(config.RESOURCES_DIR.joinpath("style.css")), 'r', encoding="utf-8").read()
+    table_data = template_table.format(
+      height_placeholder=40+57 * len(rows),
+      style_placeholder=style,
       submission_placeholder="\n".join(rows))
+    with open(self.table_svg_path, 'w', encoding="utf-8") as fp:
+      fp.write(table_data)
+
+    template_readme = open(str(config.RESOURCES_DIR.joinpath("readme.template")), 'r',
+                    encoding="utf-8").read()
+    readme_data = template_readme.format(
+      profile_placeholder=self.__generate_profile()
+    )
     with open(self.readme_path, 'w', encoding="utf-8") as fp:
       fp.write(readme_data)
+    
