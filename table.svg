@@ -1,0 +1,621 @@
+<svg fill="none" viewBox="0 0 1000 4828" width="1000" height="4828" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .container{
+    background-color: #e1e1e1;
+}
+.problems {
+    font-family: verdana, arial, sans-serif;
+}
+.solution {
+      color: #0a0; 
+      font-weight: bold;
+}
+.problems .dark {
+    background-color: #f8f8f8;
+    height: 55px;
+}
+.problems .light {
+    background-color: #ffffff;
+    height: 55px;
+}
+.problems .name {
+  white-space: nowrap;
+}
+td, th {
+    padding: 0.4em;
+}
+code {
+    color: #0000cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-weight: bold;
+    margin: 2px;
+    padding: 2px 3px 2px 3px;
+    background-color: #f0f0f0;
+    border: 1px solid #b9b9b9;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.bole {
+    border-bottom-left-radius: 6px;
+}
+.bori {
+    border-bottom-right-radius: 6px;
+}
+.tole {
+    border-top-left-radius: 6px;
+}
+.tori {
+    border-top-right-radius: 6px;
+}
+			</style>
+            <div class="container">
+                <table class="problems">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Contest</th>
+                            <th>Title</th>
+                            <th>Rating</th>
+                            <th>Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr class='light'>
+          <td class='tole' align='center'>84</td>
+          <td rowspan='1' align='center'>1938</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1938/problem/H'>H - Pho Restaurant</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1938/submission/249234576'>?</a></td>
+          <td class='tori' align='center'><div style='display: flex; justify-content: center;'></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>83</td>
+          <td rowspan='1' align='center'>1937</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1937/problem/B'>B - Binary Path</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1937/submission/248989551'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>82</td>
+          <td rowspan='5' align='center'>1933</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/A'>A - Turtle Puzzle: Rearrange and Negate</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248498142'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>math</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>81</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/B'>B - Turtle Math: Fast Three Task</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248521731'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>80</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248546869'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>79</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/D'>D - Turtle Tenacity: Continual Mods</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248634950'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>math</code> <code>number theory</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>78</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/E'>E - Turtle vs. Rabbit Race: Optimal Trainings</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248611394'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>implementation</code> <code>math</code> <code>ternary search</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>77</td>
+          <td rowspan='5' align='center'>1932</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/A'>A - Thorns and Coins</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247545677'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>76</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/B'>B - Chaya Calendar</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247545366'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>number theory</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>75</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/C'>C - LR-remainders</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247131946'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>data structures</code> <code>implementation</code> <code>math</code> <code>two pointers</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>74</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/D'>D - Card Game</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247550255'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>73</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/E'>E - Final Countdown</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247558715'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>72</td>
+          <td rowspan='5' align='center'>1931</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1931/problem/A'>A - Recovering a Small String</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1931/submission/246126497'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>71</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1931/problem/B'>B - Make Equal</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1931/submission/246136539'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>70</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1931/problem/C'>C - Make Equal Again</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1931/submission/246159591'>1000</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>greedy</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>69</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1931/problem/D'>D - Divisible Pairs</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1931/submission/246201544'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>combinatorics</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>68</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1931/problem/E'>E - Anna and the Valentine's Day Gift</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1931/submission/246252132'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>games</code> <code>greedy</code> <code>math</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>67</td>
+          <td rowspan='3' align='center'>1928</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1928/problem/A'>A - Rectangle Cutting</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1928/submission/246049308'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>geometry</code> <code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>66</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1928/problem/B'>B - Equalize</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1928/submission/246054133'>1200</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>greedy</code> <code>sortings</code> <code>two pointers</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>65</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1928/problem/C'>C - Physical Education Lesson</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1928/submission/246052034'>1600</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>64</td>
+          <td rowspan='5' align='center'>1927</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/A'>A - Make it White</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245093021'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>63</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/B'>B - Following the String</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245118060'>900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>62</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/C'>C - Choose the Different Ones!</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245294548'>1000</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>greedy</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>61</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/D'>D - Find the Different Ones!</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245241622'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>data structures</code> <code>dp</code> <code>dsu</code> <code>greedy</code> <code>two pointers</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>60</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/E'>E - Klever Permutation</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245211830'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>math</code> <code>two pointers</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>59</td>
+          <td rowspan='1' align='center'>1921</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1921/problem/E'>E - Eat the Chip</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1921/submission/241823650'>1600</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>games</code> <code>greedy</code> <code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>58</td>
+          <td rowspan='1' align='center'>1920</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1920/problem/C'>C - Partitioning the Array</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1920/submission/245766658'>1600</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>57</td>
+          <td rowspan='3' align='center'>1918</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1918/problem/A'>A - Brick Wall</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244447008'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>implementation</code> <code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>56</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1918/problem/B'>B - Minimize Inversions</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244485275'>900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>data structures</code> <code>greedy</code> <code>implementation</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>55</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1918/problem/C'>C - XOR-distance</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244623979'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>bitmasks</code> <code>greedy</code> <code>implementation</code> <code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>54</td>
+          <td rowspan='4' align='center'>1907</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1907/problem/A'>A - Rook</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/235952318'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>53</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1907/problem/B'>B - YetnotherrokenKeoard</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/236078408'>1000</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>data structures</code> <code>implementation</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>52</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1907/problem/C'>C - Removal of Unattractive Pairs</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/236090197'>1200</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>math</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>51</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1907/problem/D'>D - Jumping Through Segments</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/236099637'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>constructive algorithms</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>50</td>
+          <td rowspan='1' align='center'>1905</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1905/problem/C'>C - Largest Subsequence</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1905/submission/248788111'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>49</td>
+          <td rowspan='1' align='center'>1903</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1903/problem/C'>C - Theofanis' Nightmare</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1903/submission/245758776'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>48</td>
+          <td rowspan='5' align='center'>1899</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1899/problem/A'>A - Game with Integers</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1899/submission/233621267'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>games</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>47</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1899/problem/B'>B - 250 Thousand Tons of TNT</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1899/submission/233746130'>1100</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>46</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1899/problem/C'>C - Yarik and Array</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1899/submission/233626282'>1100</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code> <code>greedy</code> <code>two pointers</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>45</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1899/problem/D'>D - Yarik and Musical Notes</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1899/submission/233627527'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>hashing</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>44</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1899/problem/E'>E - Queue Sort</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1899/submission/233746723'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>implementation</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>43</td>
+          <td rowspan='3' align='center'>1898</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1898/problem/A'>A - Milica and String</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233762725'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>42</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1898/problem/B'>B - Milena and Admirer</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233765327'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>41</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1898/problem/C'>C - Colorful Grid</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233869731'>1700</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>40</td>
+          <td rowspan='5' align='center'>1881</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1881/problem/A'>A - Don't Try to Count</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1881/submission/227871688'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>39</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1881/problem/B'>B - Three Threadlets</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1881/submission/227901902'>900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>38</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1881/problem/C'>C - Perfect Square</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1881/submission/227925147'>1200</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>37</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1881/problem/D'>D - Divide and Equalize</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1881/submission/228173567'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>36</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1881/problem/E'>E - Block Sequence</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1881/submission/228360060'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>35</td>
+          <td rowspan='1' align='center'>1860</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1860/problem/C'>C - Game on Permutation</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1860/submission/245761446'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>data structures</code> <code>dp</code> <code>games</code> <code>greedy</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>34</td>
+          <td rowspan='4' align='center'>1850</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1850/problem/A'>A - To My Critics</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1850/submission/228977069'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>33</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1850/problem/B'>B - Ten Words of Wisdom</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1850/submission/228977695'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>32</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1850/problem/C'>C - Word on the Paper</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1850/submission/228977993'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>31</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1850/problem/D'>D - Balanced Round</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1850/submission/228979217'>900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>greedy</code> <code>implementation</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>30</td>
+          <td rowspan='1' align='center'>1833</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1833/problem/D'>D - Flipper</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1833/submission/247812796'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>constructive algorithms</code> <code>greedy</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>29</td>
+          <td rowspan='1' align='center'>1807</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1807/problem/F'>F - Bouncy Ball</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1807/submission/249183326'>1700</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>dfs and similar</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>28</td>
+          <td rowspan='1' align='center'>1749</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1749/problem/C'>C - Number Game</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1749/submission/249030501'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>data structures</code> <code>games</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>27</td>
+          <td rowspan='3' align='center'>1454</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1454/problem/A'>A - Special Permutation</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1454/submission/230611331'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>probabilities</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>26</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1454/problem/B'>B - Unique Bid Auction</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1454/submission/230729507'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>25</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1454/problem/D'>D - Number into Sequence</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1454/submission/230616836'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>24</td>
+          <td rowspan='1' align='center'>1278</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1278/problem/C'>C - Berry Jam</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1278/submission/229378678'>1700</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>data structures</code> <code>dp</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>23</td>
+          <td rowspan='1' align='center'>1271</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1271/problem/C'>C - Shawarma Tent</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1271/submission/230934822'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>geometry</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>22</td>
+          <td rowspan='1' align='center'>892</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/892/problem/C'>C - Pride</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/892/submission/229941838'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>21</td>
+          <td rowspan='1' align='center'>877</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/877/problem/B'>B - Nikita and string</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/877/submission/230091157'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>dp</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>20</td>
+          <td rowspan='1' align='center'>817</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/817/problem/C'>C - Really Big Numbers</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/817/submission/230473520'>1600</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>dp</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>19</td>
+          <td rowspan='1' align='center'>746</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/746/problem/B'>B - Decoding</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/746/submission/229942249'>900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>18</td>
+          <td rowspan='1' align='center'>724</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/724/problem/B'>B - Batch Sort</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/724/submission/229922761'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>greedy</code> <code>implementation</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>17</td>
+          <td rowspan='1' align='center'>629</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/629/problem/A'>A - Far Relative’s Birthday Cake</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/629/submission/229775115'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>combinatorics</code> <code>constructive algorithms</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>16</td>
+          <td rowspan='1' align='center'>614</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/614/problem/A'>A - Link/Cut Tree</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/614/submission/230440730'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>15</td>
+          <td rowspan='1' align='center'>304</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/304/problem/A'>A - Pythagorean Theorem II</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/304/submission/229957576'>1200</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>14</td>
+          <td rowspan='1' align='center'>271</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/271/problem/A'>A - Beautiful Year</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/271/submission/229646338'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>13</td>
+          <td rowspan='2' align='center'>252</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/252/problem/A'>A - Little Xor</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/252/submission/229944268'>1100</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>12</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/252/problem/B'>B - Unsorting Array</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/252/submission/230927375'>1800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>11</td>
+          <td rowspan='1' align='center'>239</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/239/problem/B'>B - Easy Tape Programming</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/239/submission/230451470'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>10</td>
+          <td rowspan='1' align='center'>233</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/233/problem/B'>B - Non-square Equation</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/233/submission/230476705'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>9</td>
+          <td rowspan='1' align='center'>189</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/189/problem/A'>A - Cut Ribbon</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/189/submission/228611792'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>dp</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>8</td>
+          <td rowspan='1' align='center'>126</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/126/problem/A'>A - Hot Bath</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/126/submission/229630183'>1900</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>7</td>
+          <td rowspan='1' align='center'>110</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/110/problem/A'>A - Nearly Lucky Number</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/110/submission/229775726'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>6</td>
+          <td rowspan='1' align='center'>47</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/47/problem/A'>A - Triangular numbers</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/47/submission/229767670'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>5</td>
+          <td rowspan='1' align='center'>44</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/44/problem/B'>B - Cola</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/44/submission/228609016'>1500</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>4</td>
+          <td rowspan='3' align='center'>4</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/4/problem/A'>A - Watermelon</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/4/submission/244760694'>800</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>3</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/4/problem/B'>B - Before an Exam</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/4/submission/244762182'>1200</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>2</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/4/problem/C'>C - Registration System</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/4/submission/244762301'>1300</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>data structures</code> <code>hashing</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td class='bole' align='center'>1</td>
+          <td rowspan='1' align='center'>3</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/3/problem/A'>A - Shortest path of the king</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/3/submission/248129510'>1000</a></td>
+          <td class='bori' align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>shortest paths</code></div></td>
+        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
