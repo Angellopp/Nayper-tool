@@ -10,7 +10,8 @@ class Repository:
     self.submissions_directory = submissions_directory
     self.submission_json_path = \
       os.path.join(self.submissions_directory, "submissions.json")
-    self.readme_path = os.path.join(self.submissions_directory, "table.svg")
+    self.table_path = os.path.join(self.submissions_directory, "table.svg")
+    self.readme_path = os.path.join(self.submissions_directory, "README.md")
     self.author = config.get_author()
     if not os.path.exists(self.submissions_directory):
       self.init()
@@ -24,14 +25,19 @@ class Repository:
       git.config("user.name", config.get_author_name())
       shutil.copy2(
         str(config.RESOURCES_DIR.joinpath("table.template")),
+        self.table_path)
+      shutil.copy2(
+        str(config.RESOURCES_DIR.joinpath("readme.template")),
         self.readme_path)
       git.add("table.svg")
+      git.add("README.md")
       date = datetime.now().strftime('%b/%d/%Y %H:%M')
       git.commit(message="Initial commit with table.svg",
                  date="{}".format(date), author=self.author)
 
   def add(self, file_path):
     self.git.add(os.path.abspath(file_path))
+    self.git.add(os.path.abspath(self.table_path))
     self.git.add(os.path.abspath(self.readme_path))
     self.git.add(os.path.abspath(self.submission_json_path))
 
