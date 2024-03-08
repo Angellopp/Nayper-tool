@@ -47,7 +47,7 @@ class Submissions:
   def __generate_readme(self, submissions):
     submissions = sorted(
       submissions,
-      key=lambda s: (-s['contest_id'], s['problem_index'], -s['submission_id']),
+      key=lambda s: (-s['contest_id'], s['problem_index'], -int(s['submission_id'][2:])),
     )
     index = len(set([x['problem_url'] for x in submissions]))
     xedni = 0
